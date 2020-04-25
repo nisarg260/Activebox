@@ -5,11 +5,11 @@
 }
 
 .bg{
-	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../Image/banner.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../Image/banner1.jpg);
 	background-size: 100% 100%;
 	background-attachment: fixed;
 	width: 100%;
-	height: 660px;
+	height: 650px;
 }
 
 
@@ -27,8 +27,8 @@ nav{
 	padding-top: 30px;
 	border-bottom: 1px rgb(96,96,96) solid;
 	height: 60px;
-	margin-right: 250px;
-	margin-left: 250px;
+	width: 60%;
+	margin: auto;
 }
 .text{
 	width: 100%;
@@ -38,11 +38,13 @@ nav{
 }
 .text h1{
 	color: rgb(250,250,250);
+	font-size: 50px;
 }
 .text p{
 	font-family:sans-serif;
 	padding-top: 3px;
 	color: rgb(200,200,200);
+	font-size: 20px;
 }
 .text button{
 	margin-top: 60px;
@@ -51,12 +53,11 @@ nav{
 	padding-right: 15px;
 	padding-left: 15px;
 	font-size: 12px;
-	background-color: rgb(220,34,34);
-	border-color: rgb(220,34,34);
+	background-color: rgb(255,255,255);
 }
 
 
-.column {
+/*.column {
   float: left;
   width: 33.33%;
   
@@ -67,8 +68,8 @@ nav{
   clear: both;
 }
 .row{
-	margin-left: 200px;
-	margin-right: 200px;
+	width: 80%;
+	margin: auto;
 	margin-top: 150px;
 }
 .row p{
@@ -90,8 +91,8 @@ nav{
   clear: both;
 }
 .row2{
-	margin-left: 200px;
-	margin-right: 200px;
+	width: 80%;
+	margin: auto;
 	margin-top: 150px;
 	margin-bottom: 180px;
 }
@@ -123,6 +124,11 @@ nav{
 	height: 100%;
 	border: 1px rgb(255,255,255) solid;
 }
+.row3{
+	width: 100%;
+	display: flex;
+
+}
 .row4:after {
   content: "";
   display: table;
@@ -130,7 +136,7 @@ nav{
 }
 .column1 img hover:{
 	color: rgb(0,0,0);
-}
+}*/
 .last{
 	text-align: center;
 	padding-top: 90px;
@@ -153,12 +159,12 @@ nav{
 	font-family: sans-serif;
 	font-size: 12px;
 	font-weight: bold;
-	background-color: rgb(220,34,34);
-	border-color: rgb(220,34,34);
+	background-color: rgb(0,0,0);
 	color: rgb(255,255,255);
 	margin-bottom: 80px;	
 }
-.column2 {
+
+/*.column2 {
   float: left;
   width: 33.33%;
  }
@@ -168,8 +174,8 @@ nav{
   clear: both;
 }
 .row5{
-	margin-left: 300px;
-	margin-right: 320px;
+	width: 70%;
+	margin: auto;
 	padding-top: 50px;
 }
 .row5 p{
@@ -190,7 +196,7 @@ nav{
 }
 .intro{
 	background-color: rgb(0,40,100);
-}
+}*/
 .row6{
 	text-align: center;
 	color: rgb(196,196,196);
@@ -198,7 +204,7 @@ nav{
 	font-size: 11px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(0,0,0,0.5);
 	margin-top: 50px; 
 }
 .column3 {
@@ -211,8 +217,136 @@ nav{
   display: table;
   clear: both;
 }
+.row7{
+	width: 80%;
+	margin: auto;
+}
 .column3 img{
 	width: 30px;
 	height:30px;
 	padding-top: 15px;
+}
+.container{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-flow: wrap;
+
+}
+.box{
+	width: 24.50%;
+	height: 300px;
+	border: 1px rgb(255,255,255) solid;
+
+}
+.box img{
+	width: 100%;
+	height: 100%;
+}
+.container1{
+	width: 70%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	flex-flow: wrap;
+
+}
+.box1{
+	width: 33%;
+	height: 200px;
+	margin:auto;
+}
+.box1 p{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 14px;
+	padding: 2px;
+	color: rgb(100,100,100);
+}
+.box1 h4{
+	padding-bottom: 5px;
+	font-family: sans-serif;
+	font-weight: bold;
+
+}
+.bg2{
+	background-image:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)),url(../Image/banner2.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: auto;
+}
+.container2{
+	width: 70%;
+	margin: auto;
+	height: auto;
+	display: flex;
+	flex-flow: wrap;
+	padding-top: 50px;
+
+}
+.box2{
+	width: 33%;
+	height: 100px;
+}
+.box2 p{
+	text-align: center;
+	font-family: sans-serif;
+	color: rgb(190,190,190);
+	font-size: 10px;
+	padding: 2px;
+}
+.box2 h4{
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	padding-bottom: 15px;
+	color: rgb(255,255,255);
+}
+.bg3{
+	background-color: rgb(100,100,100);
+}
+
+
+@media screen and (max-width: 1024px){
+	nav li{
+		display: none;
+	}
+	nav img{
+		float: right;
+	}
+	.text{
+		padding-top: 60px;
+	}
+	.text h1{
+		font-size: 25px;
+	}
+	.text p{
+		font-size: 10px;
+		width: 90%;
+		margin: auto;
+	}
+	.text button{
+		font-size: 8px;
+	}
+	.bg{
+		height: 500px;
+	}
+	.last{
+		width: 80%;
+		margin: auto;
+	}
+   .box{
+   	width: 90%;
+   	margin: auto;
+   }	
+   .box1{
+   	width: 90%;
+   	margin:auto;
+   }
+   .box2{
+   	width: 90%;
+   	margin: auto;
+   }
 }
